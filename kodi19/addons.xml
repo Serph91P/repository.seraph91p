@@ -2,7 +2,7 @@
 <addons>
   <addon id="plugin.program.fcwizard" name="[COLOR red]FC[/COLOR]Wizard" version="0.0.3" provider-name="Serph91P">
       <requires>
-          <import addon="xbmc.python" version="3.0.0" />
+          <import addon="xbmc.python" version="2.1.0" />
           <import addon="script.module.requests" />
           <import addon="script.module.six" />
           <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
