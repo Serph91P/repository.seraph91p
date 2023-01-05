@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="repository.fc" name="FC Repository" version="0.1" provider-name="seraph91p">
+<addon id="repository.fc" name="FC Repository" version="0.2" provider-name="seraph91p">
     <extension point="xbmc.addon.repository" name="FC Repository">
         
         <dir>
