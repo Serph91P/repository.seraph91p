@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.fc" name="FC Repository" version="0.1" provider-name="seraph91p">
+    <extension point="xbmc.addon.repository" name="FC Repository">
+
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Serph91P/repository.seraph91p/main/kodi19/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Serph91P/repository.seraph91p/main/kodi19/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Serph91P/repository.seraph91p/tree/main/kodi19/</datadir>
+        </dir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>FC Repository</summary>
+        <description>FC Repository</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+    <addon id="repository.seraph91p" name="repository.seraph91p" version="1.0.0" provider-name="Seraph91P">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="repository.seraph91p">
+            <info compressed="false">https://raw.githubusercontent.com/seraph91p/repository.seraph91p/_.addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/seraph91p/repository.seraph91p/_.addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/seraph91p/repository.seraph91p/_.</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A short summary of this repository</summary>
+            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
